@@ -48,19 +48,19 @@ python inference.py --list_models
 
 2. **Run inference on all models:**
 ```bash
-python inference.py --data_path /path/to/carla/dataset --output_dir results
+python inference.py --data_path data/images --output_dir results
 ```
 
 3. **Run specific model types:**
 ```bash
 # Monocular models only
-python inference.py --data_path /path/to/carla/dataset --mono --output_dir results
+python inference.py --data_path data/images --mono --output_dir results
 
 # Stereo models only
-python inference.py --data_path /path/to/carla/dataset --stereo --output_dir results
+python inference.py --data_path data/images --stereo --output_dir results
 
 # Specific models
-python inference.py --data_path /path/to/carla/dataset --models midas_large sgbm_balanced
+python inference.py --data_path data/images --models midas_large sgbm_balanced
 ```
 
 4. **Quick visualization test:**
@@ -97,7 +97,7 @@ python visu.py
 
 The CARLA dataset should be organized as:
 ```
-dataset/
+data/
 ├── images/
 │   ├── left/          # Left stereo images
 │   └── right/         # Right stereo images
