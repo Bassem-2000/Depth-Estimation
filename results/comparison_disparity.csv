@@ -1,0 +1,3 @@
+Method,Bad 1.0px (%),Bad 2.0px (%),Bad 3.0px (%),MAE,RMSE
+midas_large,N/A,N/A,N/A,N/A,N/A
+sgbm_balanced,0.1696,0.0925,0.0696,1.2660,4.7147
