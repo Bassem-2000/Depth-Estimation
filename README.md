@@ -154,31 +154,3 @@ See `report.md` for detailed analysis including:
 
 See `requirements.txt` for complete list with versions.
 
-## 📚 References
-
-- **MiDaS**: [Towards Robust Monocular Depth Estimation](https://arxiv.org/abs/1907.01341)
-- **SGBM**: Semi-Global Matching algorithm from OpenCV
-- **CARLA**: [Open-source simulator for autonomous driving research](https://carla.org/)
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙋‍♂️ Support
-
-For questions or issues, please:
-1. Check the documentation
-2. Review existing issues
-3. Create a new issue with detailed description
-
----
-
-**Note**: This implementation is designed for academic research and comparison purposes. For production use, consider additional optimizations and error handling.
